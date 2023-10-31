@@ -1,0 +1,135 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2rem;
+    margin-left: 50px;
+}
+.navbar .menu ul li{
+    display: inline;
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar .menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main .tulisan h1 {
+    font-family: 'poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.main .tulisan p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.main .tulisan button{
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    font-weight: 800;
+    font-family: 'poppins', sans-serif;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+.main .tulisan button:hover {
+    background-color: black;
+}
+
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* margin: 37px; */
+}
+
+.main .tulisan{
+    margin-top: 70px;
+}
+
+.main .gambar{
+    margin-left: 20%;
+}
+
+.tulisan{
+    padding-left: 30px;
+}
+
+.main .tulisan img{
+    margin-top: 10px;
+}
+
+.main2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.tulisan2{
+    margin-top: 300px;
+}
+
+.main2 .tulisan2 h1 {
+    font-family: 'poppins', sans-serif; 
+}
+
+.main2 .tulisan2 p {
+    font-family:  'Montserrat', sans-serif; 
+}
+
+.tulisan3 h1{
+    font-family: 'poppins',sans-serif;
+}
+
+.tulisan3 p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main3 .tulisan3 button{
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    font-weight: 800;
+    font-family: 'poppins', sans-serif;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+}
+
+.main3 .gambar3{
+    position: relative;
+}
+
+.main3 .gambar3 .eskrim {
+    position: absolute;
+    margin-left: 50px;
+}
+
+.main3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main3 .tulisan3 button:hover {
+    background-color: black;
+}
+
+.main3 .gambar3 .dotatas{
+    margin-left: 200px;
+}
